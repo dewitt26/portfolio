@@ -1,6 +1,6 @@
 body {
 
-    background-color: maroon;
+    background-color: cadetblue;
     font-size: 75px;
 
 
@@ -8,7 +8,7 @@ body {
 
 img {
     position: center;
-    background: orange;
+    background: white;
     width: 50px;
     height: 50px;
     top: 200px;
@@ -92,9 +92,9 @@ div.desc {
 }
 
 .pic {
-    position: absolute;
+    position: relative;
     width: 25%;
-    height:30%;
+   
     margin: 2rem;
     top: 150px;
     left: 600px;
@@ -107,10 +107,10 @@ div.desc {
 }
 
 .pic2 {
-    position: absolute;
+    position: relative;
     width: 30%;
     height: 35%;
-    margin: 2rem;
+   
     top: 380px;
     left: 600px;
     padding: 1px;
@@ -124,7 +124,7 @@ div.desc {
 .box {
     position: relative;
     width: 30%;
-    margin: 1rem;
+    margin: 10rem;
     padding: 2rem;
     color: #FFF;
     font-size: .9rem;
@@ -137,7 +137,7 @@ div.desc {
     background-color: #414141;
 }
 
-boxx {
+.boxx {
     position: relative;
     width: 30%;
     margin: 1rem;
@@ -149,8 +149,8 @@ boxx {
     border-width: 10px;
     border-radius: 30px;
     border-color: whitesmoke;
-    border-style: solid;
-    background-color: skyblue;
+    border-style: double;
+    background-color: darkslategray;
 }
 
 #bio {
