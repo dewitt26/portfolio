@@ -234,3 +234,16 @@ div.desc {
     border-style: solid;
     padding: 10px;
 }
+
+#lightning{
+     position: center;
+    background: white;
+    margin-top: -400px;
+    margin-left: 80px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    
+    
+}
