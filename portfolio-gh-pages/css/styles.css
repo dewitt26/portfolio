@@ -157,6 +157,85 @@ div.desc {
 }
 
 
+.boxp {
+   position: relative;
+    width: 30%;
+    height: 20%;
+   left: 850px;
+    top: 800px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+.boxp2 {
+   position: relative;
+    width: 30%;
+    height: 20%;
+   left: 10px;
+    top: 600px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+
+
+
+.light{
+    left:10px;
+    bottom:20px;
+}
+
+.dice{
+    left:50px;
+    bottom:100px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: right;
+  width: 50%;
+  height:100%;
+  padding: 5px;
+    bottom:500px;
+}
+
+
+.column2 {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    left: 10px;
+    bottom: 430px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+/* Clear floats after image containers */
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+
+
+
 
 .sq {
    position: relative;
@@ -195,6 +274,25 @@ div.desc {
     border-color: black;
     border-style: double;
     background-color: #E69044;
+}
+
+.boxd {
+   position: relative;
+    width: 30%;
+    height: 20%;
+    left: 10px;
+    bottom: 800px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: 1 rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #ff4d94;
 }
 .box2 {
    position: relative;
