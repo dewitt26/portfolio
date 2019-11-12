@@ -82,9 +82,6 @@ div.desc {
   text-align: center;
 }
 
-
-
-
 .text {
     color: white;
     text-align: center;
@@ -98,6 +95,21 @@ div.desc {
     margin: 2rem;
     
     top: 150px;
+    left: 780px;
+    padding: 1px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+
+}
+.picgimp {
+    position: relative;
+    width: 40%;
+    height: 20%;
+    margin: 2rem;
+    
+    top: 10px;
     left: 780px;
     padding: 1px;
     border-width: 10px;
@@ -194,6 +206,98 @@ div.desc {
     background-color: cadetblue;
 }
 
+.boxp3 {
+   position: relative;
+    width: 30%;
+    height: 20%;
+   left: 20px;
+    top: 100px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+.boxp3light {
+   position: relative;
+    width: 30%;
+    height: 20%;
+   left: 20px;
+    top: 15px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+.boxp3dice {
+   position: relative;
+    width: 30%;
+    height: 20%;
+   left: 20px;
+    bottom:100px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+
+.boxp4 {
+   position: relative;
+    width: 30%;
+    height: 20%;
+   left: 900px;
+    top: 200px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+.boxp4light {
+   position: relative;
+    width: 30%;
+    height: 20%;
+   left: 900px;
+    top: 200px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+
 
 
 .light{
@@ -215,6 +319,27 @@ div.desc {
     bottom:500px;
 }
 
+.column3 {
+  float: right;
+  width: 50%;
+  height:100%;
+  padding: 5px;
+top:1000px;
+}
+.piccol {
+    position: relative;
+    width: 40%;
+    height: 20%;
+    margin: 2rem;
+    top: 450px;
+    left: 780px;
+    padding: 1px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+
+}
 
 .column2 {
     position: relative;
@@ -281,7 +406,7 @@ div.desc {
     width: 30%;
     height: 20%;
     left: 10px;
-    bottom: 800px;
+    bottom: 450px;
     margin: 1rem;
     padding: 2rem;
     color: black;
