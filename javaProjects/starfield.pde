@@ -7,7 +7,7 @@ JumboParticle[] jArray;
 Image img=new Image();
 
 void setup(){
-  //your code here
+  
   size(1000,1000);
   sArray=new StarParticle[1000];
   nArray=new NormalParticle[1500];
@@ -24,16 +24,16 @@ void setup(){
   for(int i=0; i<rArray.length; i++){
     rArray[i]=new RandomParticle();
   }
-  for(int i=0; i<oArray.length;i++){
-   oArray[i]=new OddballParticle(); 
-  }
   for(int i=0; i<jArray.length; i++){
    jArray[i]=new JumboParticle(); 
+  }
+   for(int i=0; i<oArray.length;i++){
+   oArray[i]=new OddballParticle(); 
   }
   
 }
 void draw(){
-  //your code here
+  
   background(0);
    for(int i=0;i<sArray.length; i++){
     sArray[i].show();
@@ -47,18 +47,19 @@ void draw(){
     rArray[i].show();
     rArray[i].move();
   } 
-  for(int i=0; i<oArray.length; i++){
-    oArray[i].show();
-    oArray[i].move();
-  }
+ 
   for(int i=0; i<jArray.length; i++){
     jArray[i].show();
     jArray[i].move();
   }
+   for(int i=0; i<oArray.length; i++){
+    oArray[i].show();
+    oArray[i].move();
+  }
   img.drawImg();
 }
 interface Particle{
-  //your code here
+
   void show();
   void move();
 }

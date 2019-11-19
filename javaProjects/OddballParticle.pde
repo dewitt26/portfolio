@@ -1,11 +1,6 @@
 class OddballParticle implements Particle//uses an interface
 {
   double x, y, angle, speed;
-  int t=0;
-  int r;
-  int g;
-  int b;
-  
   
   OddballParticle(){
    
@@ -19,16 +14,16 @@ class OddballParticle implements Particle//uses an interface
   y+=Math.sin(angle)*speed;
   angle+=.01;
   
-  if(x>580){
-    x=580;
-  }else if(x<80){
-    x=80;
+  if(x>700){
+    x=700;
+  }else if(x<200){
+    x=200;
   }
   
-   if(y>580){
-    y=580;
-  }else if(y<80){
-    y=80;
+   if(y>700){
+    y=700;
+  }else if(y<200){
+    y=200;
   } 
   }
  void show(){
@@ -37,39 +32,30 @@ class OddballParticle implements Particle//uses an interface
  
 
    fill(90,255,190);
-  ellipse((int)x, (int)y-23,20, 30);
+  ellipse((int)x, (int)y-23,20, 30); //green alien head
 
   fill(255);
-  ellipse((int)x, (int)y, 50, 20);
+  ellipse((int)x, (int)y, 50, 20); //ufo shape
   
    fill(0,0,0);
-  ellipse((int)x+5, (int)y-26,5, 10);
+  ellipse((int)x+5, (int)y-26,5, 10); //alien eyes
   
    fill(0,0,0);
-  ellipse((int)x-5, (int)y-26,5, 10);
+  ellipse((int)x-5, (int)y-26,5, 10); //alien eyes
   
    fill(280,385,135);
-   ellipse((int)x, (int)y, 8,8);
+   ellipse((int)x, (int)y, 8,8); //dot on ufo
    
    fill(280,385,135);
-   ellipse((int)x+15, (int)y, 8,8);
+   ellipse((int)x+15, (int)y, 8,8); //dot on ufo
    
    fill(280,385,135);
-   ellipse((int)x-15, (int)y, 8,8);
+   ellipse((int)x-15, (int)y, 8,8); //dot on ufo
   
   
   
  
 }
-
-void randomColor(){
- r=((int)(Math.random()*155 +100));
- g=((int)(Math.random()*155 +100));
- b=((int)(Math.random()*155 +100));
-  
-}
-  
-  
 
 
 }

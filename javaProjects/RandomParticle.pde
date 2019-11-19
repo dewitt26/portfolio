@@ -1,5 +1,5 @@
 class RandomParticle{
-//your code here
+
 double x, y, angle, speed;
 int r, g, b;
 int t=0;
@@ -8,7 +8,7 @@ RandomParticle(){
   x=width/2;
   y=height/2;
   speed=Math.random()*20;
-  //angle=(Math.PI*5)*Math.random();
+
   angle=((Math.PI/2)+25)*Math.random();
 }
 void move(){
@@ -36,11 +36,9 @@ void show(){
   t=300;
   }
   t++;
- // println(t);
- // colorMode(HSB);
-  //blendMode(LIGHTEST);
+ 
   fill(r,g,b);
-  ellipse((int)x, (int)y, 10,10);
+  ellipse((int)x, (int)y, 15,15);
 }
 
 void randomColor(){

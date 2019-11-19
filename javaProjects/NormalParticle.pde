@@ -1,5 +1,5 @@
 class NormalParticle{
-//your code here
+
 double x, y, angle, speed;
 int r, g, b;
 int t=0;

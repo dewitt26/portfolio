@@ -12,16 +12,10 @@
  void drawImg(){
  
  img=loadImage("rocket2.png");
- //image(img, xPos, 200, 150, 100);
-  //xPos=xPos+xDir;
-   //if (xPos>width-20 || xPos<20)
-  //{
-   // xDir=-xDir;
-  //}
-  
-  image(img, 450, yPos, 150, 200);
+ 
+  image(img, 450, yPos, 75, 150);
 yPos=yPos-yDir;
-  if (yPos<-5)
+  if (yPos<-5) //code to launch rocket, restarts at bottom of screen when y position <-5
   {
     yPos=980;
   }

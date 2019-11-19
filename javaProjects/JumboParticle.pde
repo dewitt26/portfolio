@@ -9,7 +9,7 @@ class JumboParticle extends OddballParticle//uses inheritance
   JumboParticle(){
   x=width/2;
   y=height/2;
- speed=Math.random()*20;
+ speed=Math.random()*20; //same speed and angle as normal particle (travels same path)
   angle=(Math.PI*5)*Math.random()*6;
   }
   void move(){
@@ -38,7 +38,7 @@ class JumboParticle extends OddballParticle//uses inheritance
   t++;
   colorMode(HSB);
   fill(r,g,b);
-  ellipse((int)x, (int)y, 40,40);
+  ellipse((int)x, (int)y, 35,35);
 }
 
 void randomColor(){

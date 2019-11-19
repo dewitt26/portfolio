@@ -1,5 +1,5 @@
 class StarParticle{
-//your code here
+
 double x, y, angle, speed;
 int r, g, b;
 int t=0;
@@ -7,9 +7,9 @@ int t=0;
 StarParticle(){
   x=width/2;
   y=height/2;
-    speed=Math.random()*20;
+  speed=Math.random()*20;  //same angle and speed as NormalParticle and JumboParticle 
   angle=(Math.PI*5)*Math.random()*6;
-  //angle=(Math.PI/2)*Math.random();
+
 }
 void move(){
   x+=Math.cos(angle)*speed*3;
@@ -31,24 +31,9 @@ void move(){
 
 void show(){
   noStroke();
-  if(t==0){
-  randomColor();
-  t=300;
-  }
-  t++;
-  //println(t);
- // colorMode(HSB);
-  //blendMode(LIGHTEST);
+ 
   fill(255);
   ellipse((int)x, (int)y, 3,3);
 }
-
-void randomColor(){
- r=((int)(Math.random()*155 +100));
- g=((int)(Math.random()*155 +100));
- b=((int)(Math.random()*155 +100));
-  
-}
-  
   
 }
