@@ -13,8 +13,9 @@ var p=true; //boolean
 function setup()   
 {     
   //initialize bacteria variables here   
-  createCanvas(800, 500);
-
+  //createCanvas(800, 500);
+var canvas = createCanvas(800, 500);
+    canvas.parent('sketch-div');
 //Bacteria=[];
   for (var i=0; i<9; i++) {
     b[i]=new Bacteria(width/2, height/2);

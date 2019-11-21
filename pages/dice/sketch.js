@@ -12,7 +12,9 @@ var dice = new Array();
 
 
 function setup() {
-    createCanvas(620, 700);
+    var canvas = createCanvas(620, 700);
+    canvas.parent('sketch-div');
+    //createCanvas(620, 700);
     //noLoop();
 
     dice = [];

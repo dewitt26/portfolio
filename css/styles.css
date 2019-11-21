@@ -103,6 +103,22 @@ div.desc {
     border-style: solid;
 
 }
+
+.picResume {
+    position: relative;
+    width: 40%;
+    height: 20%;
+    margin: 1rem;
+    
+    top: 150px;
+    left:auto;
+    padding: 1px;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+
+}
 .picgimp {
     position: relative;
     width: 40%;
@@ -125,7 +141,7 @@ div.desc {
     margin: 2rem;
     
     top: 100px;
-    left: 780px;
+    left: 600px;
     padding: 1px;
     border-width: 10px;
     border-radius: 30px;
@@ -489,6 +505,158 @@ top:1000px;
     border-radius: 30px;
     border-color: black;
     border-style: solid;
+    
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    border: 5px solid #42352c;
+}
+
+.child0 {
+    flex-basis: 20%;
+    padding: 1rem;
+    height: 10%;
+
+    margin-top: 10%;
+    color: #FFF;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: orangered;
+    border-style: dotted;
+    background-color: #414141;
+    font-size: 138px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.child1 {
+    flex-basis: 20%;
+    height: 10%;
+    margin: auto;
+    padding: 4px;
+
+    border-color: white;
+    background-color: cadetblue;
+    border-width: 6px;
+    border-radius: 5px;
+    border-style: ridge;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+
+
+}
+
+.child2 {
+    flex-basis: 40%;
+    padding: 1rem;
+    height: 10%;
+    margin: .5%;
+
+    
+    position: relative;
+    width: 30%;
+    height: 20%;
+   left: 20px;
+    top: 100px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+
+.child5 {
+    flex-basis: 30%;
+    padding: 1rem;
+    height: 10%;
+    margin: .5%;
+
+    
+    position: relative;
+    
+    right:900px;
+    height:200px;
+    width:500px;
+    margin:50px;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+
+.child6 {
+    flex-basis: 30%;
+    padding: 1rem;
+    height: 10%;
+    margin: .5%;
+
+    
+    position: relative;
+    
+    right:900px;
+    height:200px;
+    width:500px;
+    margin:50px;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    background-color: #E69044;
+}
+
+.child7 {
+    flex-basis: 30%;
+    padding: 1rem;
+    height: 10%;
+    margin: .5%;
+
+    
+    position: relative;
+    
+    right:900px;
+    height:200px;
+    width:500px;
+    margin:50px;
+    padding: 2rem;
+    
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    
+    
+     
+    color: #FFF;
+    
+    background-color: #253C1D;
     
     
 }

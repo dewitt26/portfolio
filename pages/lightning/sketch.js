@@ -20,13 +20,15 @@ var startTime;
 //}
 
 function setup() {
+    var canvas = createCanvas(500, 500);
+    canvas.parent('sketch-div');
 img=loadImage("cloudd.png");
   startX=250;
     startY=0;
     endX= 450;
     endY=450;
    // rain=10;
-    createCanvas(500,500);
+    //createCanvas(500,500);
     strokeWeight(3);
     background('030303');
 
