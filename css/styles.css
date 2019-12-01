@@ -139,8 +139,7 @@ div.desc {
     width: 30%;
     height: 50%;
     margin: 2rem;
-    
-    top: 100px;
+        top: 100px;
     left: 600px;
     padding: 1px;
     border-width: 10px;
@@ -511,9 +510,20 @@ top:1000px;
 
 .flex-container {
     display: flex;
+    
     flex-flow: row nowrap;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: stretch;
+    /*border: 5px solid #42352c;*/
+}
+
+.flex-container2 {
+    display: flex;
+    
+    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: stretch;
     border: 5px solid #42352c;
 }
@@ -578,6 +588,78 @@ top:1000px;
     border-style: solid;
     background-color: cadetblue;
 }
+.child2orange {
+    flex-basis: 40%;
+    padding: 1rem;
+    height: 10%;
+    margin: .5%;
+
+    
+    position: relative;
+    width: 30%;
+    height: 20%;
+   left: 20px;
+    top: 100px;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: #E69044;
+}
+.child2pic {
+    flex-basis: 40%;
+    /*padding: 1rem;*/
+    height: 10%;
+    margin: .5%;
+
+    
+    position: relative;
+    width: 30%;
+    height: 20%;
+   left: 20px;
+    top: 100px;
+    margin: 1rem;
+   /* padding: 2rem;*/
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+}
+
+.child2pic2 {
+    flex-basis: 40%;
+    /*padding: 1rem;*/
+    height: 10%;
+    margin: .5%;
+    position: relative;
+    width: 30%;
+    height: 50%;
+   left: 20px;
+    top: 100px;
+    margin: 1rem;
+   /* padding: 2rem;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: left;
+    border-width: 10px;
+    border-radius: 30px;*/
+    border-color: black;
+    border-style: solid;
+   
+}
+
 
 .child5 {
     flex-basis: 30%;
